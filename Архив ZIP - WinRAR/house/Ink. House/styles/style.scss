@@ -1,0 +1,12 @@
+@use 'reset';
+@use 'functions';
+@use 'base';
+@use 'variables';
+@use 'fonts';
+
+@use 'blocks/header';
+@use 'blocks/welcome';
+@use 'blocks/reproductions';
+@use 'blocks/collection';
+@use 'blocks/team';
+@use 'blocks/footer';

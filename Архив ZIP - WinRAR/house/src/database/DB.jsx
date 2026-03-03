@@ -1,0 +1,20 @@
+const DB = [ { id: crypto.randomUUID(), categ: 'Франция', author: 'Марсель Руссо', name: 'Охота Амура', lore: 'Холст, масло (50х80)', cost: '14 500', img: 'fr1.jpg' },
+    { id: crypto.randomUUID(), categ: 'Франция', author: 'Анри Селин', name: 'Дама с собачкой', lore: 'Акрил, бумага (50х80)', cost: '16 500', img: 'fr2.jpg' },
+    { id: crypto.randomUUID(), categ: 'Франция', author: 'Франсуа Дюпон', name: 'Процедура', lore: 'Цветная литография (40х60)', cost: '20 000', img: 'fr3.jpg' },
+    { id: crypto.randomUUID(), categ: 'Франция', author: 'Луи Детуш', name: 'Роза', lore: 'Бумага, акрил (50х80)', cost: '12 000 руб', img: 'fr4.jpg' },
+    { id: crypto.randomUUID(), categ: 'Франция', author: 'Франсуа Дюпон', name: 'Птичья трапеза', lore: 'Цветная литография (40х60)', cost: '22 500 руб', img: 'fr5.jpg' },
+    { id: crypto.randomUUID(), categ: 'Франция', author: 'Пьер Моранж', name: 'Пейзаж с рыбой', lore: 'Цветная литография (40х60)', cost: '20 000 руб', img: 'fr6.jpg' },
+    { id: crypto.randomUUID(), categ: 'Германия', author: 'Курт Вернер', name: 'Над городом', lore: 'Цветная литография (40х60)', cost: '16 000 руб', img: 'ger1.png' },
+    { id: crypto.randomUUID(), categ: 'Германия', author: 'Макс Рихтер', name: 'Птенцы', lore: 'Холст, масло (50х80)', cost: '14 500 руб', img: 'ger2.png' },
+    { id: crypto.randomUUID(), categ: 'Германия', author: 'Мартин Майер', name: 'Среди листьев', lore: 'Цветная литография (40х60)', cost: '20 000 руб', img: 'ger3.png' },
+    { id: crypto.randomUUID(), categ: 'Германия', author: 'Герман Беккер', name: 'Яркая птица', lore: 'Цветная литография (40х60)', cost: '13 000 руб', img: 'ger4.png' },
+    { id: crypto.randomUUID(), categ: 'Германия', author: 'Вульф Бауэр', name: 'Дятлы', lore: 'Бумага, акрил (50х80)', cost: '20 000 руб', img: 'ger5.png' },
+    { id: crypto.randomUUID(), categ: 'Германия', author: 'Вальтер Хартманн', name: 'Большие воды', lore: 'Бумага, акрил (50х80)', cost: '23 000 руб', img: 'ger6.png' },
+    { id: crypto.randomUUID(), categ: 'Англия', author: 'Пол Смит', name: 'Дикий зверь', lore: 'Акварель, бумага (50х80)', cost: '19 500 руб', img: 'eng1.png' },
+    { id: crypto.randomUUID(), categ: 'Англия', author: 'Джон Уайт', name: 'Дикий зверь', lore: 'Цветная литография (40х60)', cost: '17 500 руб', img: 'eng2.png' },
+    { id: crypto.randomUUID(), categ: 'Англия', author: 'Джим Уотсон', name: 'Река и горы', lore: 'Акварель, бумага (50х80)', cost: '20 500 руб', img: 'eng3.png' },
+    { id: crypto.randomUUID(), categ: 'Англия', author: 'Юджин Зиллион', name: 'Белый попугай', lore: 'Цветная литография (40х60)', cost: '15 500 руб', img: 'eng4.png' },
+    { id: crypto.randomUUID(), categ: 'Англия', author: 'Эрик Гиллман', name: 'Ночная рыба', lore: 'Бумага, акрил (50х80)', cost: '12 500 руб', img: 'eng5.png' },
+    { id: crypto.randomUUID(), categ: 'Англия', author: 'Альфред Барр', name: 'Рыжий кот', lore: 'Цветная литография (40х60)', cost: '21 000 руб', img: 'eng6.png' }, ]
+
+export default DB

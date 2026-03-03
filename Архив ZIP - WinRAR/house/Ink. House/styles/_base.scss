@@ -1,0 +1,16 @@
+a, a li{
+transition: color 0.3s ease;
+  &:hover {
+    color: var(--green-2);
+  }
+}
+span {
+  color: var(--green-2);
+}
+
+.big-button {
+transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
